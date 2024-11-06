@@ -28,7 +28,7 @@ export default function MultiStepForm ({ currentStep, setCurrentStep, nextStep, 
   };
 
   return (
-    <div className="flex flex-col gap-3 p-5 w-[60%] items-center" >
+    <div className="flex flex-col gap-3 p-5 w-full lg:w-[60%] items-center" >
       {currentStep === 1 && (
         <StepOne formData={formData} currentStep={currentStep} handleChange={handleChange} />
       )}

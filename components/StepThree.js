@@ -1,8 +1,8 @@
 const stepThree = () => (
     <div className="flex flex-col gap-3 bg-[#FFF4DB] h-full w-full mx-auto items-center justify-center">
-        <h2 className="font-bold text-2xl text-[#F2AC78]">Step 3 / 3: Travel Preferences</h2>
+        <h2 className="font-bold font-itim text-xl text-center lg:text-2xl text-[#F2AC78]">Step 3 / 3: Travel Preferences</h2>
         <div className="flex flex-col gap-2 w-full max-w-md">
-            <label className="text-[#F2AC78]">Preferred Mode of Transport</label>
+            <label className="text-[#F2AC78] font-poppins">Preferred Mode of Transport</label>
             <select
                 className="w-full p-2 shadow-md border border-[#F2AC78] focus:outline-none focus:border-[#F2AC78] focus:ring-2 focus:ring-[#F2AC78] bg-[#FFF4DB] rounded-md"
             >
@@ -16,7 +16,7 @@ const stepThree = () => (
             </select>
         </div>
         <div className="flex flex-col gap-2 w-full max-w-md">
-            <label className="text-[#F2AC78]">Accommodation Type</label>
+            <label className="text-[#F2AC78] font-poppins">Accommodation Type</label>
             <select
                 className="w-full p-2 shadow-md border border-[#F2AC78] focus:outline-none focus:border-[#F2AC78] focus:ring-2 focus:ring-[#F2AC78] bg-[#FFF4DB] rounded-md"
             >
@@ -29,7 +29,7 @@ const stepThree = () => (
             </select>
         </div>
         <div className="flex flex-col gap-2 w-full max-w-md">
-            <label className="text-[#F2AC78]">Activities of Interest</label>
+            <label className="text-[#F2AC78] font-poppins">Activities of Interest</label>
             <div className="flex flex-col gap-1">
                 <label>
                     <input type="checkbox" value="Adventure" />
@@ -58,7 +58,7 @@ const stepThree = () => (
             </div>
         </div>
         <div className="flex flex-col gap-2 w-full max-w-md">
-            <label className="text-[#F2AC78]">Dietary Restrictions</label>
+            <label className="text-[#F2AC78] font-poppins">Dietary Restrictions</label>
             <select
                 className="w-full p-2 shadow-md border border-[#F2AC78] focus:outline-none focus:border-[#F2AC78] focus:ring-2 focus:ring-[#F2AC78] bg-[#FFF4DB] rounded-md"
             >

@@ -20,11 +20,11 @@ export default function Quiz() {
     }
 
     return (
-        <div className={`flex w-full ${bg}`}>
-            <div className="w-[40%]">
-                {(currentStep === 1) && (<img src="/stepOne.jpg" className="rounded-r-xl h-screen w-full"></img>)}
-                {(currentStep === 2) && (<img src="/stepTwo.jpg" className="rounded-r-xl h-screen w-full"></img>)}
-                {(currentStep === 3) && (<img src="/stepThree.jpg" className="rounded-r-xl h-screen w-full"></img>)}
+        <div className={`flex flex-col lg:flex-row w-full h-full ${bg}`}>
+            <div className="w-full lg:w-[40%]">
+                {(currentStep === 1) && (<img src="/stepOne.jpg" className="lg:rounded-r-xl h-[50vh] lg:h-screen w-full"></img>)}
+                {(currentStep === 2) && (<img src="/stepTwo.jpg" className="lg:rounded-r-xl h-[50vh] lg:h-screen w-full"></img>)}
+                {(currentStep === 3) && (<img src="/stepThree.jpg" className="lg:rounded-r-xl h-[50vh] lg:h-screen w-full"></img>)}
             </div>
             <MultiStepForm currentStep={currentStep} setCurrentStep={setCurrentStep} nextStep={nextStep} prevStep={prevStep} />
         </div>

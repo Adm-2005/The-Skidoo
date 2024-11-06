@@ -7,10 +7,10 @@ module.exports = {
   ],
   theme: {
     extend: {
-      colors: {
-        primary: "#A5C7DB",
-        secondary: "#C47152",
-      },
+      fontFamily: {
+        itim: ['Itim', 'sans-serif'],
+        poppins: ['Poppins', 'sans-serif']
+      }
     },
   },
   plugins: [],
