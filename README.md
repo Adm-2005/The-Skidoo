@@ -1,11 +1,11 @@
-# The Skidoo - Quiz Form
+# The Skidoo 
 
 ## Project Snapshots
 
-![skidoo-home](https://github.com/user-attachments/assets/f8abc1a3-da7e-40d4-9705-fe985232348f)
+![Screenshot 2024-11-06 233257](https://github.com/user-attachments/assets/feaf20cb-bf6b-4cd5-b95a-49592fba80e3)
 
-![skidoo-step1](https://github.com/user-attachments/assets/1fad7cdb-b6fa-4c71-b946-1adb3b4291d6)
+![Screenshot 2024-11-06 233406](https://github.com/user-attachments/assets/858a31ea-e0e6-4e8e-a6a3-aca20d640795)
 
-![skidoo-step2](https://github.com/user-attachments/assets/5e62663a-a3e8-44fd-b838-101fb2f14df9)
+![Screenshot 2024-11-06 233433](https://github.com/user-attachments/assets/319f9ca1-5848-4377-bfb9-c1f53c1b5376)
 
-![skidoo-step3](https://github.com/user-attachments/assets/c2a79617-fd95-48a7-957a-f1e9cdc6339b)
+![Screenshot 2024-11-06 233459](https://github.com/user-attachments/assets/2c2bf46f-e8ca-477e-b650-63467efcc50a)
