@@ -67,7 +67,7 @@ export default function Post({ params }) {
                         <IconContext.Provider value={{ size: '15px' }}>
                             <FaRegUserCircle />
                         </IconContext.Provider>
-                        <p>{post.author.name}</p>
+                        <p>Author</p>
                     </div>
                 </div>
             </div>

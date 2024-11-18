@@ -65,7 +65,7 @@ export default function Card({ post }) {
                     <IconContext.Provider value={{ size: '15px'}}>
                         <FaRegUserCircle />
                     </IconContext.Provider>
-                    <p className="text-sm text-gray-600">{post.author.name}</p>
+                    <p className="text-sm text-gray-600">Author</p>
                 </div>
               </div>
           </Link>
