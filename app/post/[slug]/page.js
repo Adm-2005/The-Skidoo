@@ -53,7 +53,11 @@ export default function Post({ params }) {
     return (
         <div className="flex flex-col w-full">
             <div className="relative w-full h-[400px]">
-                <img className="w-full h-full rounded-b-[20px] object-cover" src={post.media[0].link} alt={post.title} />
+            <img
+                src={post.media[0].link}
+                alt={`Cover image for ${post.title}`}
+                className="w-full h-full rounded-b-[20px] object-cover"
+            />
 
                 <div className="absolute bottom-0 left-0 w-full p-3 text-center text-white flex flex-col gap-1">
                     <h3 className="text-md md:text-xl lg:text-2xl font-semibold font-poppins">{post.title}</h3>

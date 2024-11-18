@@ -6,7 +6,7 @@ export default function Section ({ section }) {
             <h1 className="font-itim text-3xl text-center">{section.name}</h1>
 
             <div className="">
-                {section.media_present && (
+                { (section.media && section.media.length > 0) && (
                     section.section_media.map((m, index) => (
                         <img key={index} src={m.link}></img>
                     ))
@@ -14,7 +14,7 @@ export default function Section ({ section }) {
             </div>
             <p className="text-base px-4 text-gray-700">{section.text}</p>
 
-            {section.subsection_present && (
+            {section.subsections.length > 0 && (
                 section.subsections.map((subsection, index) => (
                     <SubSection key={index} subsection={subsection} />
                 ))
