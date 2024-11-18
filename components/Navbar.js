@@ -13,8 +13,8 @@ export default function Navbar() {
             href: '/'
         },
         {
-            name: 'Testimonials',
-            href: '/#testimonials'
+            name: 'Blog',
+            href: '/blog'
         },
         {
             name: 'Chat',
@@ -32,9 +32,11 @@ export default function Navbar() {
 
     return (
         <nav className={navOpen ? 'flex lg:flex-row w-full items-center justify-between bg-[#4BC8DE] lg:justify-around absolute p-4' : 'flex font-roboto lg:flex-row w-full items-center justify-between lg:justify-around absolute p-4'}>
-            <div>
-                <h1 className="font-bold font-itim text-xl lg:text-2xl">The Skidoo</h1>
-            </div>
+            <Link href='/'>
+                <div>
+                    <h1 className="font-bold font-itim text-xl lg:text-2xl">The Skidoo</h1>
+                </div>
+            </Link>
 
             <ul className={navOpen 
                     ? 'flex flex-col lg:flex-row font-poppins gap-8 fixed lg:static top-[60px] lg:top-0 right-0 h-full w-full bg-[#4BC8DE] lg:bg-transparent p-4 lg:p-0 transform translate-x-0 transition-transform duration-300' 

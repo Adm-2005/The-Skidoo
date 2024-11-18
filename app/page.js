@@ -2,8 +2,8 @@
 import { useState } from 'react';
 import { IconContext } from 'react-icons';
 import { FaArrowCircleRight } from "react-icons/fa";
-import Link from 'next/link'
-import MultiStepForm from '../components/MultiStepForm';
+import Link from 'next/link';
+import MultiStepForm from '../components/quiz/MultiStepForm';
 
 export default function HomePage() {
   return (

@@ -1,5 +1,6 @@
 import './globals.css'; 
 import Navbar from '../components/Navbar'; 
+import SideNavbar from '../components/SideNavbar'; 
 import Footer from '../components/Footer'; 
 
 export default function Layout({ children }) {
@@ -12,13 +13,13 @@ export default function Layout({ children }) {
         <title>The Skidoo</title>
       </head>
       <body>
-        <div className="">
-          <Navbar />
-          <main className="">
-            {children}
-          </main>
-          <Footer />
-        </div>
+          <div className='flex flex-col md:flex-row w-full'>
+            <SideNavbar />
+            <div className='flex flex-col w-full'>
+              {children}
+              <Footer />
+            </div>
+          </div>
       </body>
     </html>
   );
